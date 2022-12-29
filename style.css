@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Tamzen';
-    src: url('tamzen.ttf');
+    src: url('tamzen.tff');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,10 +11,12 @@ body {
     font-family: 'Tamzen';
     background-color: #1E1E1E;
     font-size: 24px;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 60%;
     margin: auto;
+    word-break: break-all;
 }
+
 h2 {
     color: #D9E0EE;
     border-bottom: 1px solid #D9E0EE;
@@ -24,26 +26,34 @@ h3 {
     color: #D9E0EE;
 }
 
-.title {
-    text-align: center;
-    font-size: 40px;
-}
-
-.subtitle {
-    text-align: center;
-    font-size: 25px;
-}
-
-.pfp {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 10%;
-    width: 10%;
-}
-
 a {
     color: #8aacab;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #aeb4be;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1E1E1E;
 }
