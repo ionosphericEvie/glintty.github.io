@@ -15,6 +15,16 @@ body {
     width: 60%;
     margin: auto;
 }
+
+img {
+    vertical-align: middle;
+    transition: transform 1.5s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(720deg);
+  }
+
 h2 {
     color: #D9E0EE;
     border-bottom: 1px solid #D9E0EE;
@@ -36,4 +46,9 @@ h3 {
 
 a {
     color: #8aacab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
