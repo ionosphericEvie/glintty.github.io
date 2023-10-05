@@ -11,9 +11,15 @@ body {
     font-family: 'Tamzen';
     background-color: #1E1E1E;
     font-size: 24px;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 60%;
     margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      width: 90%;
+    }
 }
 
 img {
@@ -32,16 +38,6 @@ h2 {
 
 h3 {
     color: #D9E0EE;
-}
-
-.pfp {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 10%;
-    width: 10%;
 }
 
 a {
