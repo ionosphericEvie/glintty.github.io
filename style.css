@@ -1,7 +1,14 @@
 @font-face {
     font-family: 'Tamzen';
-    src: url('tamzen.ttf');
+    src: url('assets/Tamzen8x16r.ttf');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tamzen';
+    src: url('assets/Tamzen10x20b.ttf');
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -10,7 +17,7 @@ body {
     color: #aeb4be;
     font-family: 'Tamzen';
     background-color: #1E1E1E;
-    font-size: 24px;
+    font-size: 16px;
     padding-top: 30px;
     width: 60%;
     margin: auto;
@@ -25,22 +32,17 @@ body {
     }
 }
 
-img {
-    vertical-align: middle;
-    transition: transform 1.5s ease-in-out;
-}
-
-img:hover {
-    transform: rotate(720deg);
-  }
+/* text */
 
 h2 {
+    font-size: 40px;
     color: #D9E0EE;
     border-bottom: 1px solid #D9E0EE;
 }
 
 h3 {
-    color: #D9E0EE;
+  font-size: 20px;  
+  color: #D9E0EE;
 }
 
 a {
@@ -49,5 +51,24 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+/* images & buttons */
+img.icon {
+  transition: transform 1.5s ease-in-out; 
+}
+
+img.icon:hover {
+  transform: rotate(720deg);
+}
+
+.button {
+  display: block;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 31;
+  width: 50%;
+
 }
